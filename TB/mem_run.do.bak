@@ -1,0 +1,5 @@
+Vlog Memory.sv Memory_package.sv Memory_tb.sv +cover
+vsim Memory_tbench -novopt -coverage -suppress 12110 
+add wave -r /*
+add wave -position end  /Memory_tbench/DUT/memory
+run -all; coverage report -codeAll -cvg -output coverage_rpt.txt
