@@ -10,7 +10,7 @@ Class-based verification project for memory module. Uses SystemVerilog OOP const
 
 ## Environment
 
-![Environment](pics/clenv.drawio.png)
+![Environment](pics/clenv2.drawio.png)
 
 ## Coverage 
 
